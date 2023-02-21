@@ -7,13 +7,18 @@
 
  日記
  
- \begin{description}
-   \item[運動の第一法則]\mbox{}\\
-            慣性の法則のことです．運動方程式が成り立つ座標系を慣性系と言います．
-            多くの場合，地球に固定された座標系(実験室系)が良い近似として使われま
-            す．
-   \item[運動の第二法則]\mbox{}\\
-	    運動方程式のことです．
-   \item[運動の第三法則]\mbox{}\\
-	    作用反作用の法則のことです．
-\end{description}
+ ¥begin{itemize}
+    ¥item 項目その１。
+    ¥item 項目その２。
+    ¥begin{itemize}
+        ¥item 箇条書きの内側で更に新しい箇条書きを始めると見出し記号が変わる（この項は「--」）。
+        ¥item[●] ここでは見出し記号を自分で指定した「●」に変える。
+        ¥begin{itemize}
+            ¥item さらに内側で箇条書きを始める。
+            ¥begin{itemize}
+                ¥item 最深レベル。
+            ¥end{itemize}
+        ¥end{itemize}
+    ¥end{itemize}
+    ¥item 項目その３
+¥end{itemize}
