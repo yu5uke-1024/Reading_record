@@ -7,18 +7,7 @@
 
  日記
  
- ¥begin{itemize}
-    ¥item 項目その１。
-    ¥item 項目その２。
-    ¥begin{itemize}
-        ¥item 箇条書きの内側で更に新しい箇条書きを始めると見出し記号が変わる（この項は「--」）。
-        ¥item[●] ここでは見出し記号を自分で指定した「●」に変える。
-        ¥begin{itemize}
-            ¥item さらに内側で箇条書きを始める。
-            ¥begin{itemize}
-                ¥item 最深レベル。
-            ¥end{itemize}
-        ¥end{itemize}
-    ¥end{itemize}
-    ¥item 項目その３
-¥end{itemize}
+ - 02/01〜02/20
+	- 1章から20章までを勉強
+- 02/21
+	- 21章を勉強 
